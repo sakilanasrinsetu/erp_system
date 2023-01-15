@@ -93,7 +93,7 @@ TEMPLATES = [
     },
 ]
 
-print('gggggggggggggggggggggggggg', [os.path.join(BASE_DIR, 'templates')],)
+
 
 WSGI_APPLICATION = 'erp_system.wsgi.application'
 

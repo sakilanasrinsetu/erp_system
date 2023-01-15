@@ -52,6 +52,8 @@ swagger_url = [
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', include('dashboard.urls')),
+    path('authentication/', include('accounts.urls')),
 ]+swagger_url
 
 if settings.DEBUG:
