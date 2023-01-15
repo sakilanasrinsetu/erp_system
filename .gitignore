@@ -180,3 +180,6 @@ myshop/.gitignore at main · sakilanasrinsetu/myshop
 
 static_cdn/
 static_cdn
+
+db.sqlite3
+db.sqlite3/
